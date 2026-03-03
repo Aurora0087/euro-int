@@ -69,7 +69,7 @@ function page() {
                                 About us.
                             </motion.h4> </div>
                         <div className=" font-sans flex flex-col gap-4">
-                            <p className="">FOLD DESIGN is an export house of international repute based in Kolkata, engaged in the manufacture and export of high fashion leather bags and accessories, both for men and women. Since our establishment in 1990, we have deeply embedded the principles of excellence and kaizen to provide high quality products at a reasonable cost to our customers.</p>
+                            <p className="">Way Line is an export house of international repute based in Kolkata, engaged in the manufacture and export of high fashion leather bags and accessories, both for men and women. Since our establishment in 1990, we have deeply embedded the principles of excellence and kaizen to provide high quality products at a reasonable cost to our customers.</p>
                             <p>Given our focus on quality, we are proudly affiliated as a technical associate of BLC Leather Technology Centre, U.K. The partnership has helped us to keep a strict vigil on our quality parameters and has kept them at par with international standards. As a result of our work on quality and on-time delivery, we have been able to serve the world's leading retailers for over 20 years.</p>
                         </div>
                     </div>

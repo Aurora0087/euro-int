@@ -99,7 +99,7 @@ function page() {
                             </motion.h4> </div>
                         <div className=" font-sans flex flex-col gap-4">
                             <p className="">
-                                Welcome to Fold Design. We value your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website [www.folddesign.in], purchase our products, or interact with us in any way. By using our Site, you agree to the collection and use of information in accordance with this policy.
+                                Welcome to Way Line. We value your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website [www.exmple.com], purchase our products, or interact with us in any way. By using our Site, you agree to the collection and use of information in accordance with this policy.
                             </p>
                             <p>
                                 As a manufacturer, exporter, and brand of premium leather goods, we ensure that our privacy practices align with both customer trust and international data protection standards.

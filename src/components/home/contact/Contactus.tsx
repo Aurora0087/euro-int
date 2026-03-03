@@ -7,7 +7,7 @@ import { Instagram, Linkedin, Mail, Phone } from "lucide-react"
 import { FaLinkedin } from "react-icons/fa"
 
 function Contactus() {
-    const TO_EMAIL = "fd.folddesign@gmail.com"
+    const TO_EMAIL = "example@gmail.com"
 
     const [name, setName] = useState("")
     const [email, setEmail] = useState("")
@@ -128,7 +128,7 @@ function Contactus() {
             </div>
 
             <div className=" py-2 md:py-8">
-                <p className=" text-center font-sans">@Copyright reserved by Fold Design</p>
+                <p className=" text-center font-sans">@Copyright reserved by Way Line</p>
             </div>
         </Wrapper>
     )

@@ -22,25 +22,25 @@ function Footer() {
                 <div className='flex  gap-4'>
                     <div className=' text-2xl w-full md:w-fit md:text-[4vw] uppercase font-semibold text-white flex justify-center items-center'>office<span className='text-white'>.</span></div>
                     <div className=' text-slate-400 grid place-content-center font-sans'>
-                        <p>22 Shamsul Huda Road,</p>
-                        <p> 4th Floor,</p>
-                        <p>Kolkata-700017</p>
-                        <a href='tel:+919163649163' className=' mt-2 hover:text-white'>+91 9163649163</a>
-                        <a href="tel:+919331863123" className="hover:text-white">+91 9331863123</a>
-                        <a href='mailto:zayankaizer@fold-design.com' className=' mt-2 hover:text-white'>zayankaizer@fold-design.com</a>
-                        <a href='mailto:fd.folddesign@gmail.com' className=' hover:text-white'>fd.folddesign@gmail.com</a>
+                        <p> 1235 Road,</p>
+                        <p> 2th Floor,</p>
+                        <p>zxy-123</p>
+                        <a href='tel:+0' className=' mt-2 hover:text-white'>+00 0000000000</a>
+                        <a href="tel:+0" className="hover:text-white">+00 0000000000</a>
+                        <a href='mailto:example@gmail.com' className=' mt-2 hover:text-white'>example@gmail.com</a>
+                        <a href='mailto:example@gmail.com' className=' hover:text-white'>example@gmail.com</a>
                     </div>
                 </div>
                 <div className='flex font-sans flex-row-reverse md:flex-row gap-4'>
                     <div className=' text-xl w-full md:w-fit md:text-[4vw] uppercase font-semibold text-white flex justify-center items-center'>workshop<span className='text-white'>.</span></div>
                     <div className=' text-slate-400 grid place-content-center'>
-                        <p>Kolkata Leather Complex,Plot-1585, Zone-9.</p>
-                        <p>Dist..- 24 PGS (S), Pin-743502,</p>
-                        <p>West Bengal, India</p>
-                        <a href='tel:+919163649163' className=' mt-2 hover:text-white'>+91 9163649163</a>
-                        <a href="tel:+919331863123" className="hover:text-white">+91 9331863123</a>
-                        <a href='mailto:zayankaizer@fold-design.com' className=' mt-2 hover:text-white'>zayankaizer@fold-design.com</a>
-                        <a href='mailto:fd.folddesign@gmail.com' className=' hover:text-white'>fd.folddesign@gmail.com</a>
+                        <p>abcdfro 87ty.</p>
+                        <p>bbv hyu,</p>
+                        <p>123456io</p>
+                        <a href='tel:+0' className=' mt-2 hover:text-white'>+00 0000000000</a>
+                        <a href="tel:+0" className="hover:text-white">+00 0000000000</a>
+                        <a href='mailto:example@gmail.com' className=' mt-2 hover:text-white'>example@gmail.com</a>
+                        <a href='mailto:example@gmail.com' className=' hover:text-white'>example@gmail.com</a>
                     </div>
                 </div>
             </div>
@@ -51,17 +51,17 @@ function Footer() {
                 className=' w-full flex justify-center items-center gap-4 md:gap-8 h-[5vh] md:h-[10vh]'>
 
                 <Magnetic>
-                    <a href="mailto:fd.folddesign@gmail.com" target="_blank" className="relative h-[10vh]">
+                    <a href="mailto:example@gmail.com" target="_blank" className="relative h-[10vh]">
                         <Mail className=' text-red-400 hover:text-secondary w-full h-full' />
                     </a>
                 </Magnetic>
                 <Magnetic>
-                    <a href="https://www.linkedin.com/company/fold-design/?viewAsMember=true" target='_blank' className=' relative h-[10vh]'>
+                    <a href="https://www.linkedin.com" target='_blank' className=' relative h-[10vh]'>
                         <FaLinkedin className=' text-blue-400 hover:text-secondary w-full h-full' />
                     </a>
                 </Magnetic>
                 <Magnetic>
-                    <a href="https://www.instagram.com/fd.folddesign?igsh=MXByZ3R5ZDhvN3hxdw%3D%3D" target='_blank' className=' h-[10vh]'>
+                    <a href="https://www.instagram.com" target='_blank' className=' h-[10vh]'>
                         <Instagram className=' text-red-400 hover:text-secondary w-full h-full' />
                     </a>
                 </Magnetic>

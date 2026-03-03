@@ -16,7 +16,7 @@ function Products() {
             </div>
             <Getintuch />
             <div className='sticky top-0 max-h-screen w-full bg-white grid-cols-1 p-4'>
-                <Image width={5000} height={5000} alt='' className=' object-cover w-full h-full grayscale-100' src="/images/about/xyyz.jpg" />
+                <Image width={5000} height={5000} alt='' className=' object-cover w-full h-full grayscale-100' src="/images/about/about1.jpg" />
             </div>
             <div className='sticky top-0 min-h-screen w-full bg-white p-8'>
                 <Contactus />

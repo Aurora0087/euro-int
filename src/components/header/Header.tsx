@@ -14,7 +14,7 @@ export default function Header() {
     <div className="fixed w-screen overflow-x-hidden bg-primary box-border p-2 sm:py-4 sm:px-8 z-50 opacity-90 no-scrollbar">
       <div className="relative flex justify-end text-xs font-normal uppercase sm:text-sm">
         <Link href="/" className="absolute left-0 text-white no-underline" onClick={() => setIsActive(false)}>
-          Fold Design
+          Way Line
         </Link>
         <Magnetic>
           <div onClick={() => setIsActive(!isActive)} className="sticky-ref flex items-center justify-center gap-2 cursor-pointer">

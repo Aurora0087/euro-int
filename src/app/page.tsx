@@ -33,16 +33,16 @@ export default function Home() {
   return (
     <div className="h-full w-screen relative">
       <AnimatePresence mode='wait'>
-        {isLoading && <Preloader />}
+        {/*isLoading && <Preloader />*/}
       </AnimatePresence>
       <div className=" fixed top-0 right-0 h-screen w-12 z-50 grid place-content-center gap-2 pointer-events-none">
-        <a href="mailto:fd.folddesign@gmail.com" target="_blank" className="relative bg-white rounded p-1 pointer-events-auto">
+        <a href="mailto:example@gmail.com" target="_blank" className="relative bg-white rounded p-1 pointer-events-auto">
           <Mail className=' text-red-400 hover:text-primary w-8 h-8' />
         </a>
-        <a href="https://www.linkedin.com/company/fold-design/?viewAsMember=true" target='_blank' className=' relative bg-white rounded p-1 pointer-events-auto'>
+        <a href="https://www.linkedin.com" target='_blank' className=' relative bg-white rounded p-1 pointer-events-auto'>
           <FaLinkedin className=' text-blue-400 hover:text-primary w-8 h-8' />
         </a>
-        <a href="https://www.instagram.com/fd.folddesign?igsh=MXByZ3R5ZDhvN3hxdw%3D%3D" target='_blank' className=' bg-white rounded p-1 pointer-events-auto'>
+        <a href="https://www.instagram.com" target='_blank' className=' bg-white rounded p-1 pointer-events-auto'>
           <Instagram className=' text-red-400 hover:text-primary w-8 h-8' />
         </a>
       </div>

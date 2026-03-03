@@ -22,7 +22,7 @@ function Section1() {
             </div>
             <div className='overflow-hidden rounded-xl grid grid-cols-1'>
                 <div className=' w-full h-full overflow-hidden'>
-                    <Image width={500} height={500} src="/images/hero/human1.jpeg" alt='' className=' grayscale-100 w-full h-full object-cover' />
+                    <Image width={500} height={500} src="/images/products/bag.jpg" alt='' className=' grayscale-100 w-full h-full object-cover' />
                 </div>
             </div>
         </motion.div>

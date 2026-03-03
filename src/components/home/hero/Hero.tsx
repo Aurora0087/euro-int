@@ -22,10 +22,10 @@ function Hero() {
                 <div className='md:flex justify-center items-center'>
                     <a href="/" className='flex font-sans items-center justify-center text-white text-xl'>
                         <div className='w-12 h-12 overflow-hidden'>
-                            <Image width={100} height={100} alt='logo' src="/FDLOGO.png" className='w-full h-full object-contain' />
+                            <Image width={100} height={100} alt='logo' src="/logowayline.png" className='w-full h-full object-contain' />
                         </div>
                         <div className=' grid ml-2'>
-                            <span className=' font-bold'>Fold Design</span>
+                            <span className=' font-bold'>Way Line</span>
                             <span className=' text-xs '>Crafted to Endure. Designed to Impress.</span>
                         </div>
                     </a>
@@ -50,34 +50,34 @@ function Hero() {
                                         <MapPin className=' w-8 h-8' />
                                         <h4 className=' font-bold'>Office</h4>
                                         <div>
-                                            <p>22 Shamsul Huda Road,</p>
+                                            <p>zxcrt 1245,</p>
                                             <p> 4th Floor,</p>
-                                            <p>Kolkata-700017</p>
+                                            <p>hhyu-12</p>
                                         </div>
                                     </div>
                                     <div className=' w-full h-full bg-primary/80 rounded-xl grid gap-2 overflow-hidden p-4'>
                                         <MapPin className=' w-8 h-8' />
                                         <h4 className=' font-bold'>Workshop</h4>
                                         <div>
-                                            <p>Kolkata Leather Complex,Plot-1585, Zone-9.</p>
-                                            <p>Dist..- 24 PGS (S), Pin-743502,</p>
-                                            <p>West Bengal, India</p>
+                                           <p>zxcrt 1245,</p>
+                                            <p> 4th Floor,</p>
+                                            <p>hhyu-12</p>
                                         </div>
                                     </div>
                                     <div className=' w-full h-full bg-primary/80 rounded-xl grid gap-2 overflow-hidden p-4'>
                                         <Mail className=' w-8 h-8' />
                                         <h4 className=' font-bold'>Email Address</h4>
                                         <div className='grid'>
-                                            <a href='mailto:zayankaizer@fold-design.com' className=' mt-2 hover:text-white'>zayankaizer@fold-design.com</a>
-                                            <a href='mailto:fd.folddesign@gmail.com' className=' hover:text-white'>fd.folddesign@gmail.com</a>
+                                            <a href='mailto:example:@gmail.com' className=' mt-2 hover:text-white'>example@gmail.com</a>
+                                            <a href='mailto:example@gmail.com' className=' hover:text-white'>example@gmail.com</a>
                                         </div>
                                     </div>
                                     <div className=' w-full h-full bg-primary/80 rounded-xl grid gap-2 overflow-hidden p-4'>
                                         <Phone className=' w-8 h-8' />
                                         <h4 className=' font-bold'>Email Address</h4>
                                         <div className='grid'>
-                                            <a href='tel:+919163649163' className=' mt-2 hover:text-white'>+91 9163649163</a>
-                                            <a href="tel:+919331863123" className="hover:text-white">+91 9331863123</a>
+                                            <a href='tel:+00 0000000000' className=' mt-2 hover:text-white'>+00 0000000000</a>
+                                            <a href="tel:+00 0000000000" className="hover:text-white">+00 0000000000</a>
                                         </div>
                                     </div>
                                 </div>

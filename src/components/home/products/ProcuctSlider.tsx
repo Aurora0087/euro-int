@@ -21,22 +21,22 @@ const sampleProducts: Product[] = [
 
     {
         id: "p4",
-        image: "/images/products/p4.jpeg",
+        image: "/images/products/bag.jpg",
         alt: "p4",
     },
     {
         id: "p11",
-        image: "/images/products/p11.jpeg",
+        image: "/images/products/bag.jpg",
         alt: "p11",
     },
     {
         id: "p10",
-        image: "/images/products/p10.jpeg",
+        image: "/images/products/bag.jpg",
         alt: "p10",
     },
     {
         id: "p25",
-        image: "/images/products/p25.jpeg",
+        image: "/images/products/bag.jpg",
         alt: "p25",
     },
 ]

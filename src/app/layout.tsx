@@ -10,8 +10,8 @@ const eb_Garamond = EB_Garamond({
 const bebas_neue = Bebas_Neue({ weight: "400" });
 
 export const metadata: Metadata = {
-  title: "Fold Design",
-  description: "Fold Design",
+  title: "Way Line",
+  description: "Way Line",
 };
 
 export default function RootLayout({
