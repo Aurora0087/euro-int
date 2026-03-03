@@ -7,7 +7,7 @@ function About() {
 
   return (
     <>
-      <div className="relative mt-[75vh] md:mt-[98vh] min-h-[210vh]">
+      <div className="relative">
         <Section1 />
         <Section2 />
       </div>

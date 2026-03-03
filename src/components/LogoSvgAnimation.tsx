@@ -1,69 +1,51 @@
 'use client'
 
-import React, { useRef, useEffect } from 'react';
-import { motion, animate } from 'framer-motion';
+import { motion } from 'framer-motion';
 
-function LogoAnimatedSVG() {
-    const path1 = useRef(null);
-    const path2 = useRef(null);
-    const path3 = useRef(null);
-    const path4 = useRef(null);
-    const path5 = useRef(null);
-
-    useEffect(() => {
-        const animatePath = (element: any, duration: number, delay: number, props: any) => {
-            if (element.current) {
-                animate(element.current, props, { duration, delay, ease: [0.76, 0, 0.24, 1] });
+export default function LogoAnimatedSVG() {
+    const sketchVariants = {
+        initial: {
+            pathLength: 0,
+            fillOpacity: 0,
+            strokeOpacity: 1,
+        },
+        enter: {
+            // 1. Draw the full path
+            pathLength: 1,
+            // 2. Fade in the solid fill
+            fillOpacity: 1,
+            // 3. Fade out the stroke 
+            strokeOpacity: 0,
+            transition: {
+                // 'easeInOut' over 3 seconds feels like a deliberate, human hand drawing
+                pathLength: { duration: 3, ease: "easeInOut" },
+                
+                // Wait for the full 3-second sketch to finish before filling with color
+                fillOpacity: { duration: 1, delay: 3, ease: "easeIn" },
+                strokeOpacity: { duration: 1, delay: 3, ease: "easeIn" }
             }
-        };
-
-        animatePath(path1, 1, 0, { strokeDashoffset: 0 }); // Example animation
-        animatePath(path2, 1, 0.15, { strokeDashoffset: 0 }); // Example animation
-        animatePath(path3, 0.5, 0.5, { strokeDashoffset: 0 }); // Example animation
-        animatePath(path4, 0.5, 0.75, { strokeDashoffset: 0 }); // Example animation
-        animatePath(path5, 1, 0.5, { strokeDashoffset: 0 }); // Example animation
-
-    }, []);
+        }
+    };
 
     return (
-        <svg width="126" height="131" viewBox="0 0 126 131" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <motion.path
-                ref={path2}
-                d="M0 10.5H65.0232"
-                stroke="white"
-                strokeWidth="20"
-                initial={{ strokeDasharray: 100, strokeDashoffset: 100 }}
+        <motion.svg 
+            className="w-[120px] md:w-[180px] lg:w-[272px] h-auto drop-shadow-xl"
+            viewBox="0 0 272 385" 
+            fill="none" 
+            xmlns="http://www.w3.org/2000/svg"
+        >
+            <motion.path 
+                variants={sketchVariants as any}
+                // --- STROKE SETTINGS (The "Pen" Ink) ---
+                stroke="#FFFFFF" // Change to "#FFFFFF" if your background is also red
+                strokeWidth="3"  // Slightly thicker stroke looks more like a real marker/pen
+                strokeLinecap="round"  // Rounds the tips of the drawn lines
+                strokeLinejoin="round" // Rounds the sharp corners as it draws
+                fill="#FFFFFF"   // Change to "#FFFFFF" if your background is also red
+                
+                // Your exact logo path
+                d="M132.575 119.501C168.632 112.924 199.706 100.369 225.796 81.8346C251.886 63.3004 264.931 46.3356 264.931 30.9402C264.931 25.8582 263.172 21.972 259.654 19.2816C256.137 16.5911 251.08 15.2459 244.484 15.2459C237.009 15.2459 227.701 17.5627 216.562 22.1962C205.569 26.8298 194.356 33.257 182.923 41.4778C189.666 48.8018 194.429 54.4817 197.214 58.5174C199.999 62.553 201.391 65.7666 201.391 68.1581C201.391 68.756 201.245 69.2044 200.952 69.5033C200.805 69.8023 200.659 69.9518 200.512 69.9518C198.607 69.9518 195.382 66.9624 190.838 60.9836C186.294 55.0048 181.971 49.9976 177.866 45.9619C163.795 54.7806 152.729 65.6919 144.668 78.6957C136.606 91.5501 132.575 104.853 132.575 118.604V119.501ZM108.171 121.295C107.292 118.455 106.632 115.839 106.192 113.447C105.753 111.056 105.533 108.814 105.533 106.721C105.533 93.8669 110.443 81.0872 120.263 68.3823C130.23 55.6774 144.521 43.9441 163.136 33.1822C151.996 24.3635 140.197 17.7121 127.738 13.228C115.426 8.74395 102.601 6.50192 89.263 6.50192C67.1305 6.50192 48.7356 11.9576 34.0783 22.8688C19.5675 33.6307 12.3121 47.0082 12.3121 63.0014C12.3121 78.9947 20.1538 92.9701 35.8371 104.928C51.667 116.736 70.3551 122.64 91.9014 122.64C93.5137 122.64 96.2253 122.49 100.036 122.191C103.847 121.743 106.559 121.444 108.171 121.295ZM85.7453 342.136H83.3268C60.4614 342.136 42.5795 336.232 29.6811 324.424C16.9292 312.466 10.5533 296.024 10.5533 275.099C10.5533 246.55 21.473 221.439 43.3124 199.766C65.1518 177.944 95.7855 161.876 135.214 151.562C130.963 149.47 127.225 147.153 124.001 144.612C120.923 141.921 118.358 138.932 116.306 135.644C110.443 136.391 105.093 136.989 100.256 137.437C95.5657 137.736 91.3151 137.886 87.5042 137.886C60.8279 137.886 39.5747 131.982 23.7448 120.174C7.91494 108.216 0 92.3722 0 72.6422C0 51.8659 8.42794 34.6022 25.2839 20.851C42.1398 6.95034 63.4662 0 89.263 0C103.92 0 117.918 2.46626 131.256 7.39875C144.741 12.1818 157.42 19.431 169.292 29.1466C183.363 22.7194 196.628 17.7869 209.087 14.3491C221.692 10.9113 232.758 9.19239 242.285 9.19239C251.666 9.19239 258.921 11.1355 264.051 15.0217C269.328 18.9079 271.966 24.2141 271.966 30.9402C271.966 46.784 258.702 64.795 232.172 84.9734C205.789 105.002 173.03 120.771 133.895 132.281C135.8 138.259 138.658 142.444 142.469 144.836C146.28 147.228 152.289 148.423 160.498 148.423C161.817 148.423 163.869 148.274 166.654 147.975C169.585 147.676 171.71 147.526 173.03 147.526C176.84 147.526 179.772 148.199 181.824 149.544C184.023 150.89 185.122 152.683 185.122 154.925C185.122 157.018 184.169 158.662 182.264 159.858C180.358 161.053 177.72 161.651 174.349 161.651C170.245 161.651 165.041 160.904 158.739 159.409C152.583 157.915 148.479 157.167 146.427 157.167C139.391 157.167 130.304 159.708 119.164 164.79C108.024 169.872 97.6177 176.524 87.9439 184.744C73.4331 197.001 62.147 211.425 54.0855 228.016C46.024 244.607 41.9932 261.721 41.9932 279.359C41.9932 294.306 45.8774 306.786 53.6458 316.801C61.4141 326.815 71.601 332.495 84.2063 333.84C84.2063 332.794 84.133 330.701 83.9864 327.563C83.8398 324.424 83.7665 321.957 83.7665 320.164C83.7665 284.59 92.1212 254.696 108.831 230.482C125.686 206.119 145.547 193.937 168.413 193.937C179.259 193.937 188.053 197.449 194.796 204.474C201.538 211.35 204.909 220.243 204.909 231.155C204.909 258.358 194.356 282.647 173.249 304.021C152.143 325.246 125.467 337.951 93.2205 342.136C94.1 350.506 95.4924 358.951 97.3978 367.471C99.4499 376.14 100.476 380.848 100.476 381.596C100.476 382.493 100.329 383.24 100.036 383.838C99.743 384.585 99.4498 384.959 99.1567 384.959C97.2513 384.959 95.1993 381.596 93.0007 374.87C90.9486 368.293 88.5302 357.382 85.7453 342.136ZM92.7808 334.289H97.3978C106.632 334.289 116.013 332.495 125.54 328.908C135.067 325.321 144.448 319.94 153.682 312.765C167.313 302.452 178.233 290.046 186.441 275.547C194.649 261.049 198.753 246.998 198.753 233.397C198.753 223.831 196.555 216.432 192.157 211.201C187.76 205.82 181.677 203.129 173.909 203.129C165.554 203.129 156.613 206.492 147.086 213.218C137.559 219.944 128.618 229.286 120.263 241.244C111.762 253.5 105.02 267.027 100.036 281.825C95.1993 296.622 92.7808 310.598 92.7808 323.751V334.289Z" 
             />
-            <motion.path
-                ref={path3}
-                d="M10.0036 60.5H50.0178"
-                stroke="white"
-                strokeWidth="20"
-                initial={{ strokeDasharray: 80, strokeDashoffset: 80 }}
-            />
-            <motion.path
-                ref={path1}
-                d="M10.0036 0.5V130.5"
-                stroke="white"
-                strokeWidth="20"
-                initial={{ strokeDasharray: 150, strokeDashoffset: 150 }}
-            />
-            <motion.path
-                ref={path4}
-                d="M35.0125 75.5V130.5"
-                stroke="white"
-                strokeWidth="20"
-                initial={{ strokeDasharray: 70, strokeDashoffset: 70 }}
-            />
-            <motion.path
-                ref={path5}
-                d="M70.025 10.5C125.045 10.5001 145.052 120.5 40.0143 120.5"
-                stroke="white"
-                strokeWidth="20"
-                initial={{ strokeDasharray: 200, strokeDashoffset: 200 }}
-            />
-        </svg>
+        </motion.svg>
     );
 }
-
-export default LogoAnimatedSVG;

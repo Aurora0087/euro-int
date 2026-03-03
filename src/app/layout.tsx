@@ -10,8 +10,8 @@ const eb_Garamond = EB_Garamond({
 const bebas_neue = Bebas_Neue({ weight: "400" });
 
 export const metadata: Metadata = {
-  title: "Way Line",
-  description: "Way Line",
+  title: "Euro International",
+  description: "Euro International",
 };
 
 export default function RootLayout({
