@@ -59,7 +59,7 @@ function Section2() {
 
                     <motion.h3 
                         variants={textVariants as any}
-                        className='text-5xl md:text-7xl lg:text-[7vw] font-bold tracking-tighter leading-[0.9] text-zinc-100 uppercase max-w-5xl'
+                        className='text-5xl md:text-7xl lg:text-[7vw] font-bold  leading-[0.9] text-zinc-100 uppercase max-w-5xl'
                     >
                         Designed To <br /> Grow With You.
                     </motion.h3>

@@ -72,7 +72,7 @@ function Hero() {
                     <motion.a 
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        className='hidden md:flex px-6 py-3 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-white hover:bg-white hover:text-black transition-colors duration-300 font-medium text-sm items-center gap-2' 
+                        className='hidden md:flex px-6 py-3 rounded-full  bg-white/10 backdrop-blur-md border border-white/20 text-white hover:bg-white hover:text-black transition-colors duration-300 font-medium tracking-widest text-sm items-center gap-2' 
                         href='#contact' 
                     >
                         Contact
@@ -91,7 +91,7 @@ function Hero() {
                         
                         <SheetContent side='left' className='w-full md:max-w-xl bg-zinc-950 border-zinc-800 text-zinc-100 p-8 md:p-12'>
                             <SheetHeader className="h-full flex flex-col justify-center">
-                                <SheetTitle className='text-4xl md:text-6xl font-bold tracking-tighter mb-12 text-white'>
+                                <SheetTitle className='text-4xl md:text-6xl font-bold  mb-12 text-white'>
                                     Connect <br/> With Us.
                                 </SheetTitle>
                                 
@@ -101,20 +101,20 @@ function Hero() {
                                         <MapPin className='w-6 h-6 text-white/50 group-hover:text-white transition-colors' />
                                         <h4 className='font-semibold text-white tracking-wide uppercase text-xs'>Office</h4>
                                         <div className='text-sm leading-relaxed'>
-                                            <p>zxcrt 1245,</p>
-                                            <p>4th Floor,</p>
-                                            <p>hhyu-12</p>
+                                            <p>4A, G.J KHAN ROAD,</p>
+                                            <p>BLOCK-A, 1ST FLOOR,</p>
+                                            <p>KOLKATA - 700039, INDIA</p>
                                         </div>
                                     </div>
                                     
                                     {/* Location 2 */}
                                     <div className='group flex flex-col gap-3 bg-zinc-900/50 hover:bg-zinc-900 border border-zinc-800/50 hover:border-zinc-700 transition-colors rounded-2xl p-6'>
                                         <MapPin className='w-6 h-6 text-white/50 group-hover:text-white transition-colors' />
-                                        <h4 className='font-semibold text-white tracking-wide uppercase text-xs'>Workshop</h4>
+                                        <h4 className='font-semibold text-white tracking-wide uppercase text-xs'>FACTORY ADDRESS</h4>
                                         <div className='text-sm leading-relaxed'>
-                                            <p>zxcrt 1245,</p>
-                                            <p>4th Floor,</p>
-                                            <p>hhyu-12</p>
+                                            <p>PLOT NO - 1603, Zone - 9,</p>
+                                            <p>ILPA LEATHER GOODS PARK, PHASE - 7,</p>
+                                            <p>KOLKATA LEATHER COMPLEX, BHOJARHAT, 24 PGS [SOUTH]</p>
                                         </div>
                                     </div>
 
@@ -123,8 +123,8 @@ function Hero() {
                                         <Mail className='w-6 h-6 text-white/50 group-hover:text-white transition-colors' />
                                         <h4 className='font-semibold text-white tracking-wide uppercase text-xs'>Email Address</h4>
                                         <div className='flex flex-col gap-1 text-sm'>
-                                            <a href='mailto:example@gmail.com' className='hover:text-white transition-colors'>example@gmail.com</a>
-                                            <a href='mailto:contact@gmail.com' className='hover:text-white transition-colors'>contact@gmail.com</a>
+                                            <a href='mailto:akhter@euro-intl.com' className='hover:text-white transition-colors'>akhter@euro-intl.com</a>
+                                            <a href='mailto:info@euro-intl.com' className='hover:text-white transition-colors'>info@euro-intl.com</a>
                                         </div>
                                     </div>
 
@@ -133,8 +133,8 @@ function Hero() {
                                         <Phone className='w-6 h-6 text-white/50 group-hover:text-white transition-colors' />
                                         <h4 className='font-semibold text-white tracking-wide uppercase text-xs'>Phone Number</h4>
                                         <div className='flex flex-col gap-1 text-sm'>
-                                            <a href='tel:+00000000000' className='hover:text-white transition-colors'>+00 0000000000</a>
-                                            <a href='tel:+00000000000' className='hover:text-white transition-colors'>+00 0000000000</a>
+                                            <a href='tel:+919883295681' className='hover:text-white transition-colors'>+91 9883295681</a>
+                                            <a href='tel:+917003611874' className='hover:text-white transition-colors'>+91 7003611874</a>
                                         </div>
                                     </div>
                                 </div>
@@ -166,7 +166,7 @@ function Hero() {
                     <div className="overflow-hidden py-2">
                         <motion.h1 
                             variants={textItem as any} 
-                            className='uppercase text-5xl md:text-[8vw] leading-[0.85] font-bold text-white tracking-tighter'
+                            className='uppercase text-5xl md:text-[8vw] leading-[0.85] font-bold text-white '
                         >
                             Leather & <br className="hidden md:block"/> Leather Goods
                         </motion.h1>

@@ -7,8 +7,8 @@ import Products from "@/components/home/products/Products";
 import Preloader from "@/components/Preloader/Preloader";
 import { AnimatePresence } from "framer-motion";
 import { useEffect, useState } from "react";
-import { Instagram, Mail } from "lucide-react";
-import { FaLinkedin } from "react-icons/fa";
+import { Facebook, Instagram, Mail } from "lucide-react";
+import { FaLinkedin, FaWhatsapp } from "react-icons/fa";
 
 
 const Hero = dynamic(() => import("@/components/home/hero/Hero"), { ssr: false })
@@ -35,17 +35,6 @@ export default function Home() {
       <AnimatePresence mode='wait'>
         {isLoading && <Preloader />}
       </AnimatePresence>
-      <div className=" fixed top-0 right-0 h-screen w-12 z-50 grid place-content-center gap-2 pointer-events-none">
-        <a href="mailto:example@gmail.com" target="_blank" className="relative bg-white rounded p-1 pointer-events-auto">
-          <Mail className=' text-red-400 hover:text-primary w-8 h-8' />
-        </a>
-        <a href="https://www.linkedin.com" target='_blank' className=' relative bg-white rounded p-1 pointer-events-auto'>
-          <FaLinkedin className=' text-blue-400 hover:text-primary w-8 h-8' />
-        </a>
-        <a href="https://www.instagram.com" target='_blank' className=' bg-white rounded p-1 pointer-events-auto'>
-          <Instagram className=' text-red-400 hover:text-primary w-8 h-8' />
-        </a>
-      </div>
       <Hero />
       <About />
       <Products />

@@ -3,12 +3,12 @@
 import type React from "react"
 import { useState } from "react"
 import { motion } from "framer-motion"
-import { Instagram, Mail, Phone, ArrowUpRight } from "lucide-react"
-import { FaLinkedin } from "react-icons/fa"
+import { Instagram, Mail, Phone, ArrowUpRight, Facebook } from "lucide-react"
+import { FaLinkedin, FaWhatsapp } from "react-icons/fa"
 import Wrapper from "../Wrapper" // adjust this path if your Wrapper is located elsewhere
 
 function Contactus() {
-    const TO_EMAIL = "example@gmail.com"
+    const TO_EMAIL = "info@euro-intl.com"
 
     const [name, setName] = useState("")
     const [email, setEmail] = useState("")
@@ -68,7 +68,7 @@ function Contactus() {
                         variants={containerVariants}
                         className="mb-16 md:mb-24"
                     >
-                        <motion.h2 variants={itemVariants as any} className="text-[12vw] md:text-[8vw] font-bold leading-[0.85] tracking-tighter uppercase text-white mb-6">
+                        <motion.h2 variants={itemVariants as any} className="text-[12vw] md:text-[8vw] font-bold leading-[0.85] uppercase text-white mb-6">
                             Let's Talk.
                         </motion.h2>
                         <motion.p variants={itemVariants as any} className="font-sans text-zinc-400 max-w-xl text-base md:text-lg">
@@ -91,15 +91,15 @@ function Contactus() {
                                 <motion.div variants={itemVariants as any} className="flex flex-col gap-2">
                                     <span className="text-xs font-semibold tracking-widest text-zinc-500 uppercase">Email</span>
                                     <a href={`mailto:${TO_EMAIL}`} className="text-xl md:text-2xl font-medium hover:text-[#8C1D20] transition-colors flex items-center gap-2 group">
-                                        example@gmail.com
+                                        {TO_EMAIL}
                                         <ArrowUpRight className="w-5 h-5 opacity-0 -translate-x-2 translate-y-2 transition-all group-hover:opacity-100 group-hover:translate-x-0 group-hover:translate-y-0" />
                                     </a>
                                 </motion.div>
 
                                 <motion.div variants={itemVariants as any} className="flex flex-col gap-2">
                                     <span className="text-xs font-semibold tracking-widest text-zinc-500 uppercase">Phone</span>
-                                    <a href="tel:+00000000000" className="text-xl md:text-2xl font-medium hover:text-[#8C1D20] transition-colors flex items-center gap-2 group">
-                                        +00 0000000000
+                                    <a href="tel:+919883295681" className="text-xl md:text-2xl font-medium hover:text-[#8C1D20] transition-colors flex items-center gap-2 group">
+                                        +91 9883295681
                                         <ArrowUpRight className="w-5 h-5 opacity-0 -translate-x-2 translate-y-2 transition-all group-hover:opacity-100 group-hover:translate-x-0 group-hover:translate-y-0" />
                                     </a>
                                 </motion.div>
@@ -114,6 +114,12 @@ function Contactus() {
                                     </a>
                                     <a href="#" className="w-12 h-12 rounded-full border border-zinc-800 flex items-center justify-center hover:bg-white hover:text-black hover:border-white transition-all duration-300">
                                         <Instagram className="w-5 h-5" />
+                                    </a>
+                                    <a href="#" className="w-12 h-12 rounded-full border border-zinc-800 flex items-center justify-center hover:bg-white hover:text-black hover:border-white transition-all duration-300">
+                                        <Facebook className="w-5 h-5" />
+                                    </a>
+                                    <a href="#" className="w-12 h-12 rounded-full border border-zinc-800 flex items-center justify-center hover:bg-white hover:text-black hover:border-white transition-all duration-300">
+                                        <FaWhatsapp className="w-5 h-5" />
                                     </a>
                                 </div>
                             </motion.div>
@@ -216,8 +222,7 @@ function Contactus() {
                 <div className="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4 font-sans text-xs uppercase tracking-widest text-zinc-500">
                     <p>© {new Date().getFullYear()} Euro International. All Rights Reserved.</p>
                     <div className="flex items-center gap-6">
-                        <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
-                        <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
+                        <a href="#" className="hover:text-white transition-colors">Devaloped by BlueAurora Labs</a>
                     </div>
                 </div>
             </div>

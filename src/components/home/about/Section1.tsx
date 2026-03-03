@@ -72,7 +72,7 @@ function Section1() {
 
           <motion.h3
             variants={itemVariants as any}
-            className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter leading-[1.1] mb-10 text-zinc-900"
+            className="text-4xl md:text-5xl lg:text-6xl font-bold  leading-[1.1] mb-10 text-zinc-900"
           >
             Crafting Excellence <br className="hidden md:block" /> in Leather
             Goods.

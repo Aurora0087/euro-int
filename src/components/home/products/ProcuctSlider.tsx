@@ -53,11 +53,6 @@ const sampleProducts: Product[] = [
         alt: "p4",
     },
     {
-        id: "p7",
-        image: "/images/products/item8.png",
-        alt: "p11",
-    },
-    {
         id: "p8",
         image: "/images/products/item9.png",
         alt: "p10",
@@ -111,7 +106,7 @@ export default function ProductSlider({
 
                     <motion.h3 
                         variants={textVariants as any}
-                        className='text-4xl md:text-5xl lg:text-[4vw] font-bold uppercase tracking-tighter leading-[0.95] text-zinc-900'
+                        className='text-4xl md:text-5xl lg:text-[4vw] font-bold uppercase  leading-[0.95] text-zinc-900'
                     >
                         At the heart of our craft is our own <span className="text-[#8C1D20]">LWG-Gold</span> Certified Tannery.
                     </motion.h3>
@@ -174,7 +169,7 @@ export default function ProductSlider({
                                         src={p.image || "/placeholder.svg"} 
                                         alt={p.alt} 
                                         // object-cover looks more premium for lifestyle. If product cutouts, use object-contain
-                                        className="h-full w-full object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105" 
+                                        className="h-full w-full object-contain object-center transition-transform duration-700 ease-out group-hover:scale-105" 
                                     />
                                     {/* Subtle overlay on hover */}
                                     <div className="absolute inset-0 bg-black/0 transition-colors duration-500 group-hover:bg-black/10" />

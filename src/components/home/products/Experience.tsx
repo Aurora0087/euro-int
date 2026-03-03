@@ -46,7 +46,7 @@ function Experience() {
             </motion.div>
 
             {/* Kinetic Typography Container */}
-            <div className='flex flex-col items-center justify-center font-extrabold uppercase leading-[0.85] tracking-tighter w-full'>
+            <div className='flex flex-col items-center justify-center font-extrabold uppercase leading-[0.85]  w-full'>
                 
                 {/* Line 1: Solid Fill */}
                 <motion.h1 

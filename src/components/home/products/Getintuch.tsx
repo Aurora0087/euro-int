@@ -59,7 +59,7 @@ function Getintuch() {
             </motion.div>
 
             {/* Kinetic Typography */}
-            <div className='flex flex-col items-center justify-center font-black uppercase leading-[0.8] tracking-tighter w-full pointer-events-none'>
+            <div className='flex flex-col items-center justify-center font-black uppercase leading-[0.8]  w-full pointer-events-none'>
                 
                 {/* Line 1: Solid Fill */}
                 <motion.h1 
