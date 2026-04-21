@@ -29,22 +29,22 @@ const sampleProducts: Product[] = [
     },
     {
         id: "p2",
-        image: "/images/productswithmodel/2.png",
+        image: "/images/productswithmodel/3.png",
         alt: "p25",
     },
     {
         id: "p3",
-        image: "/images/productswithmodel/3.png",
+        image: "/images/productswithmodel/2.png",
         alt: "p11",
     },
     {
         id: "p4",
-        image: "/images/productswithmodel/4.png",
+        image: "/images/productswithmodel/5.png",
         alt: "p10",
     },
     {
         id: "p5",
-        image: "/images/productswithmodel/5.png",
+        image: "/images/productswithmodel/4.png",
         alt: "p25",
     },
      {
@@ -54,17 +54,32 @@ const sampleProducts: Product[] = [
     },
     {
         id: "p8",
-        image: "/images/productswithmodel/7.png",
+        image: "/images/productswithmodel/17.png",
         alt: "p10",
     },
     {
         id: "p9",
-        image: "/images/productswithmodel/8.png",
+        image: "/images/productswithmodel/16.png",
         alt: "p25",
     },
     {
         id: "p10",
-        image: "/images/productswithmodel/9.png",
+        image: "/images/productswithmodel/14.jpeg",
+        alt: "p10",
+    },
+    {
+        id: "p11",
+        image: "/images/productswithmodel/8.png",
+        alt: "p11",
+    },
+    {
+        id: "p12",
+        image: "/images/productswithmodel/15.png",
+        alt: "p10",
+    },
+    {
+        id: "p13",
+        image: "/images/productswithmodel/11.png",
         alt: "p10",
     },
 ]
