@@ -71,7 +71,7 @@ function Section2() {
                     whileInView={{ opacity: 1, clipPath: 'inset(0% 0 0% 0)' }}
                     transition={{ duration: 1.5, ease: customEase as any }}
                     viewport={{ once: true, margin: "-100px" }}
-                    className='relative w-full h-[50vh] md:h-[70vh] rounded-2xl md:rounded-[2rem] overflow-hidden group'
+                    className='relative w-full h-[25vh] md:h-[50vh] rounded-2xl md:rounded-[2rem] overflow-hidden group'
                 >
                     <motion.div 
                         style={{ scale: imageScale, y: imageY }}
