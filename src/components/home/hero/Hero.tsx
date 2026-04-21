@@ -101,8 +101,8 @@ function Hero() {
                                         <MapPin className='w-6 h-6 text-white/50 group-hover:text-white transition-colors' />
                                         <h4 className='font-semibold text-white tracking-wide uppercase text-xs'>Office</h4>
                                         <div className='text-sm leading-relaxed'>
-                                            <p>4A, G.J KHAN ROAD,</p>
-                                            <p>BLOCK-A, 1ST FLOOR,</p>
+                                            <p>plot : 98,</p>
+                                            <p>zone - 10A,</p>
                                             <p>KOLKATA - 700039, INDIA</p>
                                         </div>
                                     </div>
