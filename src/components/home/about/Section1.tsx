@@ -137,7 +137,7 @@ function Section1() {
           >
             <Image 
                             fill 
-                            src="/images/products/item8.png"
+                            src="/images/productswithmodel/h.png"
                             alt='Premium Leather Crafting' 
                             className='object-cover object-center'
                             sizes="(max-width: 768px) 100vw, 50vw"

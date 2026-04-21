@@ -46,7 +46,7 @@ function Hero() {
                     fill
                     priority
                     alt='Premium Leather Hero'
-                    src="/images/hero/l2.jpeg" // Make sure this path is correct
+                    src="/images/hero/l3.png" // Make sure this path is correct
                 />
             </motion.div>
 
@@ -85,7 +85,7 @@ function Hero() {
                                 whileTap={{ scale: 0.95 }}
                                 className='group flex items-center justify-center w-12 h-12 rounded-full bg-white text-black hover:bg-zinc-200 transition-colors'
                             >
-                                <MapPin className='w-5 h-5 transition-transform group-hover:scale-110' />
+                                <MapPin className='w-5 h-5 cursor-pointer transition-transform group-hover:scale-110' />
                             </motion.button>
                         </SheetTrigger>
                         

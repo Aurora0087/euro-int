@@ -24,43 +24,48 @@ const sampleProducts: Product[] = [
 
     {
         id: "p1",
-        image: "/images/products/item3.png",
+        image: "/images/productswithmodel/1.png",
         alt: "p4",
     },
     {
         id: "p2",
-        image: "/images/products/beltimage.png",
+        image: "/images/productswithmodel/2.png",
         alt: "p25",
     },
     {
         id: "p3",
-        image: "/images/products/item4.png",
+        image: "/images/productswithmodel/3.png",
         alt: "p11",
     },
     {
         id: "p4",
-        image: "/images/products/item5.png",
+        image: "/images/productswithmodel/4.png",
         alt: "p10",
     },
     {
         id: "p5",
-        image: "/images/products/item6.png",
+        image: "/images/productswithmodel/5.png",
         alt: "p25",
     },
      {
         id: "p6",
-        image: "/images/products/item7.png",
+        image: "/images/productswithmodel/6.png",
         alt: "p4",
     },
     {
         id: "p8",
-        image: "/images/products/item9.png",
+        image: "/images/productswithmodel/7.png",
         alt: "p10",
     },
     {
         id: "p9",
-        image: "/images/products/bag1.png",
+        image: "/images/productswithmodel/8.png",
         alt: "p25",
+    },
+    {
+        id: "p10",
+        image: "/images/productswithmodel/9.png",
+        alt: "p10",
     },
 ]
 
@@ -164,12 +169,12 @@ export default function ProductSlider({
                         {products.map((p, idx) => (
                             <SwiperSlide key={p.id || idx} className="h-auto">
                                 {/* The Card */}
-                                <div className="group relative aspect-[4/5] w-full overflow-hidden rounded-2xl bg-[#F9F9F6] cursor-grab active:cursor-grabbing">
+                                <div className="group relative aspect-[4/5] w-full overflow-hidden rounded-2xl bg-[#efeae7] cursor-grab active:cursor-grabbing">
                                     <img 
                                         src={p.image || "/placeholder.svg"} 
                                         alt={p.alt} 
                                         // object-cover looks more premium for lifestyle. If product cutouts, use object-contain
-                                        className="h-full w-full object-contain object-center transition-transform duration-700 ease-out group-hover:scale-105" 
+                                        className="h-full w-full object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105" 
                                     />
                                     {/* Subtle overlay on hover */}
                                     <div className="absolute inset-0 bg-black/0 transition-colors duration-500 group-hover:bg-black/10" />

@@ -3,8 +3,8 @@
 import type React from "react"
 import { useState } from "react"
 import { motion } from "framer-motion"
-import { Instagram, Mail, Phone, ArrowUpRight, Facebook } from "lucide-react"
-import { FaLinkedin, FaWhatsapp } from "react-icons/fa"
+import { Instagram, ArrowUpRight, Facebook } from "lucide-react"
+import { FaLinkedin } from "react-icons/fa"
 import Wrapper from "../Wrapper" // adjust this path if your Wrapper is located elsewhere
 
 function Contactus() {
@@ -109,17 +109,14 @@ function Contactus() {
                             <motion.div variants={itemVariants as any} className="flex flex-col gap-4 pt-8 border-t border-zinc-800">
                                 <span className="text-xs font-semibold tracking-widest text-zinc-500 uppercase">Follow Us</span>
                                 <div className="flex items-center gap-4">
-                                    <a href="#" className="w-12 h-12 rounded-full border border-zinc-800 flex items-center justify-center hover:bg-white hover:text-black hover:border-white transition-all duration-300">
+                                    <a href="https://www.linkedin.com/company/eurointernational" target="_blank" className="w-12 h-12 rounded-full border border-zinc-800 flex items-center justify-center hover:bg-white hover:text-black hover:border-white transition-all duration-300">
                                         <FaLinkedin className="w-5 h-5" />
                                     </a>
-                                    <a href="#" className="w-12 h-12 rounded-full border border-zinc-800 flex items-center justify-center hover:bg-white hover:text-black hover:border-white transition-all duration-300">
+                                    <a href="https://www.instagram.com/eurointernational_/" target="_blank" className="w-12 h-12 rounded-full border border-zinc-800 flex items-center justify-center hover:bg-white hover:text-black hover:border-white transition-all duration-300">
                                         <Instagram className="w-5 h-5" />
                                     </a>
-                                    <a href="#" className="w-12 h-12 rounded-full border border-zinc-800 flex items-center justify-center hover:bg-white hover:text-black hover:border-white transition-all duration-300">
+                                    <a href="https://www.facebook.com/share/1L6oc2mV8q/" target="_blank" className="w-12 h-12 rounded-full border border-zinc-800 flex items-center justify-center hover:bg-white hover:text-black hover:border-white transition-all duration-300">
                                         <Facebook className="w-5 h-5" />
-                                    </a>
-                                    <a href="#" className="w-12 h-12 rounded-full border border-zinc-800 flex items-center justify-center hover:bg-white hover:text-black hover:border-white transition-all duration-300">
-                                        <FaWhatsapp className="w-5 h-5" />
                                     </a>
                                 </div>
                             </motion.div>
