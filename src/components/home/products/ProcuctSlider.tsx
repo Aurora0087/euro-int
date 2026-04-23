@@ -128,7 +128,7 @@ export default function ProductSlider({
                         variants={textVariants as any}
                         className='text-4xl md:text-5xl lg:text-[4vw] font-bold uppercase  leading-[0.95] text-zinc-900'
                     >
-                        At the heart of our craft is our own <span className="text-[#8C1D20]">LWG-Gold</span> Certified Tannery.
+                        At the heart of our craft is our own <span className="text-[#8C1D20]">LWG</span> Certified Tannery.
                     </motion.h3>
                 </motion.div>
 

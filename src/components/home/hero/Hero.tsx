@@ -99,7 +99,7 @@ function Hero() {
                                     {/* Location 1 */}
                                     <div className='group flex flex-col gap-3 bg-zinc-900/50 hover:bg-zinc-900 border border-zinc-800/50 hover:border-zinc-700 transition-colors rounded-2xl p-6'>
                                         <MapPin className='w-6 h-6 text-white/50 group-hover:text-white transition-colors' />
-                                        <h4 className='font-semibold text-white tracking-wide uppercase text-xs'>Office</h4>
+                                        <h4 className='font-semibold text-white tracking-wide uppercase text-xs'>Tannary ADDRESS</h4>
                                         <div className='text-sm leading-relaxed'>
                                             <p>plot : 98,</p>
                                             <p>zone - 10A,</p>
@@ -114,7 +114,7 @@ function Hero() {
                                         <div className='text-sm leading-relaxed'>
                                             <p>PLOT NO - 1603, Zone - 9,</p>
                                             <p>ILPA LEATHER GOODS PARK, PHASE - 7,</p>
-                                            <p>KOLKATA LEATHER COMPLEX, BHOJARHAT, 24 PGS [SOUTH]</p>
+                                            <p>KOLKATA LEATHER COMPLEX, 24 PGS [SOUTH], India</p>
                                         </div>
                                     </div>
 
