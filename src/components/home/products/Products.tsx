@@ -12,10 +12,10 @@ function Products() {
             <Experience />
             <ProcuctSlider />
             <div className='sticky top-0 h-fit w-full bg-white'>
-                <Image width={5000} height={1000} alt="" src="/images/rivacertis.png" className=' w-full h-full object-cover' />
+                <Image width={5000} height={1000} alt="" src="/images/rivacertis.webp" className=' w-full h-full object-cover' />
             </div>
             <div className='sticky top-0 max-h-screen w-full bg-white grid-cols-1 p-4'>
-                <Image width={5000} height={5000} alt='' className=' object-cover w-full h-full grayscale-100' src="/images/about/b2.png" />
+                <Image width={5000} height={5000} alt='' className=' object-cover w-full h-full grayscale-100' src="/images/about/b2.webp" />
             </div>
             <Getintuch />
             

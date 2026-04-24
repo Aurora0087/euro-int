@@ -88,7 +88,7 @@ function Section1() {
           <motion.div style={{ scale: imageScale, y: imageY }} className="w-full h-full relative origin-bottom">
             <Image
               fill
-              src="/images/productswithmodel/15.png"
+              src="/images/productswithmodel/15.webp"
               alt="Premium Leather Crafting"
               className="object-cover object-center"
               sizes="(max-width: 768px) 100vw, 50vw"

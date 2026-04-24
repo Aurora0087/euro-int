@@ -279,7 +279,7 @@ const metadata = {
         description: "Premier leather goods manufacturer & exporter at Kolkata Leather Complex since 1999. BLC UK certified. Handcrafted leather bags & accessories for global brands.",
         images: [
             {
-                url: "/images/hero/l3.png",
+                url: "/images/hero/l3.webp",
                 width: 1200,
                 height: 630,
                 alt: "Euro International – Premium Leather Goods Manufacturer at Kolkata Leather Complex, India"
@@ -291,7 +291,7 @@ const metadata = {
         title: "Euro International | Leather Goods Manufacturer Kolkata India",
         description: "Premier leather goods manufacturer & exporter at Kolkata Leather Complex since 1999. BLC UK certified.",
         images: [
-            "/images/hero/l3.png"
+            "/images/hero/l3.webp"
         ]
     },
     robots: {
@@ -330,7 +330,7 @@ const organizationSchema = {
                 "@type": "ImageObject",
                 url: `${siteUrl}/logo.png`
             },
-            image: `${siteUrl}/images/hero/l3.png`,
+            image: `${siteUrl}/images/hero/l3.webp`,
             description: "Euro International is a premier leather goods manufacturer and exporter based at Kolkata Leather Complex, India. Since 1999, we craft premium full-grain leather bags and accessories for global brands, certified by BLC Leather Technology Centre, UK.",
             foundingDate: "1999",
             telephone: [

@@ -6,6 +6,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { useT } from '@/lib/i18n/useT';
 import { Autoplay, Keyboard } from 'swiper/modules';
 import "swiper/css"
+import Image from 'next/image'
 
 type Product = {
     id: string
@@ -25,42 +26,42 @@ const sampleProducts: Product[] = [
 
     {
         id: "p1",
-        image: "/images/productswithmodel/1.png",
+        image: "/images/productswithmodel/1.webp",
         alt: "p4",
     },
     {
         id: "p2",
-        image: "/images/productswithmodel/3.png",
+        image: "/images/productswithmodel/3.webp",
         alt: "p25",
     },
     {
         id: "p3",
-        image: "/images/productswithmodel/2.png",
+        image: "/images/productswithmodel/2.webp",
         alt: "p11",
     },
     {
         id: "p4",
-        image: "/images/productswithmodel/5.png",
+        image: "/images/productswithmodel/5.webp",
         alt: "p10",
     },
     {
         id: "p5",
-        image: "/images/productswithmodel/4.png",
+        image: "/images/productswithmodel/4.webp",
         alt: "p25",
     },
      {
         id: "p6",
-        image: "/images/productswithmodel/6.png",
+        image: "/images/productswithmodel/6.webp",
         alt: "p4",
     },
     {
         id: "p8",
-        image: "/images/productswithmodel/17.png",
+        image: "/images/productswithmodel/17.webp",
         alt: "p10",
     },
     {
         id: "p9",
-        image: "/images/productswithmodel/1.png",
+        image: "/images/productswithmodel/1.webp",
         alt: "p25",
     },
     {
@@ -70,17 +71,17 @@ const sampleProducts: Product[] = [
     },
     {
         id: "p11",
-        image: "/images/productswithmodel/8.png",
+        image: "/images/productswithmodel/8.webp",
         alt: "p11",
     },
     {
         id: "p12",
-        image: "/images/productswithmodel/h.png",
+        image: "/images/productswithmodel/h.webp",
         alt: "p10",
     },
     {
         id: "p13",
-        image: "/images/productswithmodel/11.png",
+        image: "/images/productswithmodel/11.webp",
         alt: "p13",
     },
 ]
@@ -178,19 +179,19 @@ export default function ProductSlider({
                             pauseOnMouseEnter: true,
                         }}
                         speed={speedMs}
-                        className="!overflow-visible" // Crucial for letting shadows and partial slides bleed
+                        className="overflow-visible!" // Crucial for letting shadows and partial slides bleed
                     >
                         {products.map((p, idx) => (
                             <SwiperSlide key={p.id || idx} className="h-auto">
                                 {/* The Card */}
-                                <div className="group relative aspect-[4/5] w-full overflow-hidden rounded-2xl bg-[#efeae7] cursor-grab active:cursor-grabbing">
-                                    <img 
-                                        src={p.image || "/placeholder.svg"} 
-                                        alt={p.alt} 
-                                        // object-cover looks more premium for lifestyle. If product cutouts, use object-contain
-                                        className="h-full w-full object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105" 
+                                <div className="group relative aspect-4/5 w-full overflow-hidden rounded-2xl bg-[#efeae7] cursor-grab active:cursor-grabbing">
+                                    <Image
+                                        src={p.image}
+                                        alt={p.alt}
+                                        fill
+                                        sizes="(max-width: 640px) 80vw, (max-width: 1024px) 45vw, (max-width: 1440px) 30vw, 25vw"
+                                        className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105"
                                     />
-                                    {/* Subtle overlay on hover */}
                                     <div className="absolute inset-0 bg-black/0 transition-colors duration-500 group-hover:bg-black/10" />
                                 </div>
                             </SwiperSlide>

@@ -37,7 +37,7 @@ function Hero() {
                     fill
                     priority
                     alt='Premium Leather Hero'
-                    src="/images/hero/l3.png"
+                    src="/images/hero/l3.webp"
                 />
             </motion.div>
 

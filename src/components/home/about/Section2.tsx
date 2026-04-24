@@ -63,7 +63,7 @@ function Section2() {
                     <motion.div style={{ scale: imageScale, y: imageY }} className='absolute inset-0 w-full h-full'>
                         <Image
                             fill
-                            src="/images/about/b1.png"
+                            src="/images/about/b1.webp"
                             alt='Euro International Workshop'
                             className='object-cover object-center grayscale contrast-125 brightness-90 transition-all duration-1000 ease-out group-hover:grayscale-0 group-hover:contrast-100 group-hover:brightness-100'
                             sizes="100vw"

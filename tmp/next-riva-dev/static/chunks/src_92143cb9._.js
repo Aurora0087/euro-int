@@ -516,7 +516,7 @@ function Hero() {
                         fill: true,
                         priority: true,
                         alt: "Premium Leather Hero",
-                        src: "/images/hero/l3.png"
+                        src: "/images/hero/l3.webp"
                     }, void 0, false, {
                         fileName: "[project]/src/components/home/hero/Hero.tsx",
                         lineNumber: 35,

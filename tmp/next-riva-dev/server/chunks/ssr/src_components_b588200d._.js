@@ -247,7 +247,7 @@ function Section1() {
                             className: "w-full h-full relative origin-bottom",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$12_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$12_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                 fill: true,
-                                src: "/images/productswithmodel/15.png",
+                                src: "/images/productswithmodel/15.webp",
                                 alt: "Premium Leather Crafting",
                                 className: "object-cover object-center",
                                 sizes: "(max-width: 768px) 100vw, 50vw"
@@ -458,7 +458,7 @@ function Section2() {
                             className: "absolute inset-0 w-full h-full",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$12_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$12_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                 fill: true,
-                                src: "/images/about/b1.png",
+                                src: "/images/about/b1.webp",
                                 alt: "Euro International Workshop",
                                 className: "object-cover object-center grayscale contrast-125 brightness-90 transition-all duration-1000 ease-out group-hover:grayscale-0 group-hover:contrast-100 group-hover:brightness-100",
                                 sizes: "100vw"
@@ -842,7 +842,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$i18n$2f$useT$2
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$swiper$40$11$2e$2$2e$10$2f$node_modules$2f$swiper$2f$modules$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/swiper@11.2.10/node_modules/swiper/modules/index.mjs [app-ssr] (ecmascript) <locals>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$swiper$40$11$2e$2$2e$10$2f$node_modules$2f$swiper$2f$modules$2f$autoplay$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Autoplay$3e$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/swiper@11.2.10/node_modules/swiper/modules/autoplay.mjs [app-ssr] (ecmascript) <export default as Autoplay>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$swiper$40$11$2e$2$2e$10$2f$node_modules$2f$swiper$2f$modules$2f$keyboard$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Keyboard$3e$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/swiper@11.2.10/node_modules/swiper/modules/keyboard.mjs [app-ssr] (ecmascript) <export default as Keyboard>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$12_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/next@15.5.12_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/image.js [app-ssr] (ecmascript)");
 "use client";
+;
 ;
 ;
 ;
@@ -853,42 +855,42 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$sw
 const sampleProducts = [
     {
         id: "p1",
-        image: "/images/productswithmodel/1.png",
+        image: "/images/productswithmodel/1.webp",
         alt: "p4"
     },
     {
         id: "p2",
-        image: "/images/productswithmodel/3.png",
+        image: "/images/productswithmodel/3.webp",
         alt: "p25"
     },
     {
         id: "p3",
-        image: "/images/productswithmodel/2.png",
+        image: "/images/productswithmodel/2.webp",
         alt: "p11"
     },
     {
         id: "p4",
-        image: "/images/productswithmodel/5.png",
+        image: "/images/productswithmodel/5.webp",
         alt: "p10"
     },
     {
         id: "p5",
-        image: "/images/productswithmodel/4.png",
+        image: "/images/productswithmodel/4.webp",
         alt: "p25"
     },
     {
         id: "p6",
-        image: "/images/productswithmodel/6.png",
+        image: "/images/productswithmodel/6.webp",
         alt: "p4"
     },
     {
         id: "p8",
-        image: "/images/productswithmodel/17.png",
+        image: "/images/productswithmodel/17.webp",
         alt: "p10"
     },
     {
         id: "p9",
-        image: "/images/productswithmodel/1.png",
+        image: "/images/productswithmodel/1.webp",
         alt: "p25"
     },
     {
@@ -898,17 +900,17 @@ const sampleProducts = [
     },
     {
         id: "p11",
-        image: "/images/productswithmodel/8.png",
+        image: "/images/productswithmodel/8.webp",
         alt: "p11"
     },
     {
         id: "p12",
-        image: "/images/productswithmodel/h.png",
+        image: "/images/productswithmodel/h.webp",
         alt: "p10"
     },
     {
         id: "p13",
-        image: "/images/productswithmodel/11.png",
+        image: "/images/productswithmodel/11.webp",
         alt: "p13"
     }
 ];
@@ -962,14 +964,14 @@ function ProductSlider({ products = sampleProducts, autoplayDelayMs = 3000, spee
                                         children: "04"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/home/products/ProcuctSlider.tsx",
-                                        lineNumber: 122,
+                                        lineNumber: 123,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$12_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "w-12 h-px bg-zinc-300"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/home/products/ProcuctSlider.tsx",
-                                        lineNumber: 123,
+                                        lineNumber: 124,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$12_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -977,13 +979,13 @@ function ProductSlider({ products = sampleProducts, autoplayDelayMs = 3000, spee
                                         children: t('slider_eyebrow')
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/home/products/ProcuctSlider.tsx",
-                                        lineNumber: 124,
+                                        lineNumber: 125,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/home/products/ProcuctSlider.tsx",
-                                lineNumber: 121,
+                                lineNumber: 122,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$12_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$framer$2d$motion$40$12$2e$34$2e$3_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].h3, {
@@ -997,7 +999,7 @@ function ProductSlider({ products = sampleProducts, autoplayDelayMs = 3000, spee
                                         children: "LWG"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/home/products/ProcuctSlider.tsx",
-                                        lineNumber: 131,
+                                        lineNumber: 132,
                                         columnNumber: 54
                                     }, this),
                                     " ",
@@ -1005,13 +1007,13 @@ function ProductSlider({ products = sampleProducts, autoplayDelayMs = 3000, spee
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/home/products/ProcuctSlider.tsx",
-                                lineNumber: 127,
+                                lineNumber: 128,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/home/products/ProcuctSlider.tsx",
-                        lineNumber: 114,
+                        lineNumber: 115,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$12_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$framer$2d$motion$40$12$2e$34$2e$3_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1029,7 +1031,7 @@ function ProductSlider({ products = sampleProducts, autoplayDelayMs = 3000, spee
                                 children: t('slider_desc')
                             }, void 0, false, {
                                 fileName: "[project]/src/components/home/products/ProcuctSlider.tsx",
-                                lineNumber: 143,
+                                lineNumber: 144,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$12_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1039,32 +1041,32 @@ function ProductSlider({ products = sampleProducts, autoplayDelayMs = 3000, spee
                                         children: t('slider_drag')
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/home/products/ProcuctSlider.tsx",
-                                        lineNumber: 148,
+                                        lineNumber: 149,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$12_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$542$2e$0_react$40$19$2e$1$2e$0$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$move$2d$right$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__MoveRight$3e$__["MoveRight"], {
                                         className: "w-4 h-4 animate-pulse"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/home/products/ProcuctSlider.tsx",
-                                        lineNumber: 149,
+                                        lineNumber: 150,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/home/products/ProcuctSlider.tsx",
-                                lineNumber: 147,
+                                lineNumber: 148,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/home/products/ProcuctSlider.tsx",
-                        lineNumber: 136,
+                        lineNumber: 137,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/home/products/ProcuctSlider.tsx",
-                lineNumber: 111,
+                lineNumber: 112,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$12_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$framer$2d$motion$40$12$2e$34$2e$3_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1129,53 +1131,54 @@ function ProductSlider({ products = sampleProducts, autoplayDelayMs = 3000, spee
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$12_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "group relative aspect-[4/5] w-full overflow-hidden rounded-2xl bg-[#efeae7] cursor-grab active:cursor-grabbing",
                                     children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$12_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                            src: p.image || "/placeholder.svg",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$12_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$12_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                            src: p.image,
                                             alt: p.alt,
-                                            // object-cover looks more premium for lifestyle. If product cutouts, use object-contain
-                                            className: "h-full w-full object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105"
+                                            fill: true,
+                                            sizes: "(max-width: 640px) 80vw, (max-width: 1024px) 45vw, (max-width: 1440px) 30vw, 25vw",
+                                            className: "object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/home/products/ProcuctSlider.tsx",
-                                            lineNumber: 187,
+                                            lineNumber: 188,
                                             columnNumber: 37
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$12_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "absolute inset-0 bg-black/0 transition-colors duration-500 group-hover:bg-black/10"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/home/products/ProcuctSlider.tsx",
-                                            lineNumber: 194,
+                                            lineNumber: 195,
                                             columnNumber: 37
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/home/products/ProcuctSlider.tsx",
-                                    lineNumber: 186,
+                                    lineNumber: 187,
                                     columnNumber: 33
                                 }, this)
                             }, p.id || idx, false, {
                                 fileName: "[project]/src/components/home/products/ProcuctSlider.tsx",
-                                lineNumber: 184,
+                                lineNumber: 185,
                                 columnNumber: 29
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/src/components/home/products/ProcuctSlider.tsx",
-                        lineNumber: 163,
+                        lineNumber: 164,
                         columnNumber: 21
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/home/products/ProcuctSlider.tsx",
-                    lineNumber: 162,
+                    lineNumber: 163,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/home/products/ProcuctSlider.tsx",
-                lineNumber: 155,
+                lineNumber: 156,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/home/products/ProcuctSlider.tsx",
-        lineNumber: 106,
+        lineNumber: 107,
         columnNumber: 9
     }, this);
 }
@@ -1959,7 +1962,7 @@ function Products() {
                     width: 5000,
                     height: 1000,
                     alt: "",
-                    src: "/images/rivacertis.png",
+                    src: "/images/rivacertis.webp",
                     className: " w-full h-full object-cover"
                 }, void 0, false, {
                     fileName: "[project]/src/components/home/products/Products.tsx",
@@ -1978,7 +1981,7 @@ function Products() {
                     height: 5000,
                     alt: "",
                     className: " object-cover w-full h-full grayscale-100",
-                    src: "/images/about/b2.png"
+                    src: "/images/about/b2.webp"
                 }, void 0, false, {
                     fileName: "[project]/src/components/home/products/Products.tsx",
                     lineNumber: 18,
