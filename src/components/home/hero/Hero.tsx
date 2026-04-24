@@ -101,9 +101,8 @@ function Hero() {
                                         <MapPin className='w-6 h-6 text-white/50 group-hover:text-white transition-colors' />
                                         <h4 className='font-semibold text-white tracking-wide uppercase text-xs'>Tannary ADDRESS</h4>
                                         <div className='text-sm leading-relaxed'>
-                                            <p>plot : 98,</p>
-                                            <p>zone - 10A,</p>
-                                            <p>KOLKATA - 700039, INDIA</p>
+                                            <p>plot : 98,zone - 10A,</p>
+                                            <p>KOLKATA LEATHER COMPLEX, 24 PGS [SOUTH], India</p>
                                         </div>
                                     </div>
                                     

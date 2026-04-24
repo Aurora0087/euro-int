@@ -74,7 +74,7 @@ const sampleProducts: Product[] = [
     },
     {
         id: "p12",
-        image: "/images/productswithmodel/15.png",
+        image: "/images/productswithmodel/h.png",
         alt: "p10",
     },
     {

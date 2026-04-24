@@ -135,13 +135,13 @@ function Section1() {
             style={{ scale: imageScale, y: imageY }}
             className="w-full h-full relative origin-bottom"
           >
-            <Image 
-                            fill 
-                            src="/images/productswithmodel/h.png"
-                            alt='Premium Leather Crafting' 
-                            className='object-cover object-center'
-                            sizes="(max-width: 768px) 100vw, 50vw"
-                        />
+            <Image
+              fill
+              src="/images/productswithmodel/15.png"
+              alt="Premium Leather Crafting"
+              className="object-cover object-center"
+              sizes="(max-width: 768px) 100vw, 50vw"
+            />
           </motion.div>
         </div>
       </div>
