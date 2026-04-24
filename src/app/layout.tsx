@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import { EB_Garamond, Bebas_Neue } from "next/font/google";
 import "./globals.css";
 import LenisScroll from "@/components/LenisScroll";
+import CookieConsent from "@/components/CookieConsent";
+import { LanguageProvider } from "@/lib/i18n/LanguageContext";
+import ScrollToTop from "@/components/ScrollToTop";
 
 const siteUrl = "https://www.euro-intl.com";
 
@@ -213,7 +216,11 @@ export default function RootLayout({
             type="application/ld+json"
             dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
           />
-          {children}
+          <LanguageProvider>
+            {children}
+            <ScrollToTop />
+            <CookieConsent />
+          </LanguageProvider>
         </body>
       </LenisScroll>
     </html>

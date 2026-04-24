@@ -1,0 +1,10 @@
+{
+  "[project]/src/components/home/hero/Hero.tsx [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/src/components/home/hero/Hero.tsx [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/node_modules__pnpm_702c384c._.js",
+      "static/chunks/src_92143cb9._.js",
+      "static/chunks/src_components_home_hero_Hero_tsx_6dbaa422._.js"
+    ]
+  }
+}

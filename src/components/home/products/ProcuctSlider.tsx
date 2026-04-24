@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import { MoveRight } from 'lucide-react';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { useT } from '@/lib/i18n/useT';
 import { Autoplay, Keyboard } from 'swiper/modules';
 import "swiper/css"
 
@@ -86,12 +87,11 @@ const sampleProducts: Product[] = [
 
 export default function ProductSlider({
     products = sampleProducts,
-    autoplayDelayMs = 3000, // Slightly slower for a more luxurious feel
-    speedMs = 800,          // Buttery smooth transition speed
+    autoplayDelayMs = 3000,
+    speedMs = 800,
 }: ProcuctSliderProps) {
-    
-    // Smooth easing curve
-    const customEase =[0.16, 1, 0.3, 1];
+    const t = useT()
+    const customEase = [0.16, 1, 0.3, 1];
 
     const textVariants = {
         hidden: { opacity: 0, y: 40 },
@@ -120,15 +120,15 @@ export default function ProductSlider({
                 >
                     <motion.div variants={textVariants as any} className="flex items-center gap-4 mb-8">
                         <span className="text-sm font-semibold tracking-widest text-zinc-400 uppercase">04</span>
-                        <span className="w-12 h-[1px] bg-zinc-300"></span>
-                        <span className="text-sm tracking-[0.2em] text-zinc-400 uppercase">Sustainability</span>
+                        <span className="w-12 h-px bg-zinc-300"></span>
+                        <span className="text-sm tracking-[0.2em] text-zinc-400 uppercase">{t('slider_eyebrow')}</span>
                     </motion.div>
 
-                    <motion.h3 
+                    <motion.h3
                         variants={textVariants as any}
-                        className='text-4xl md:text-5xl lg:text-[4vw] font-bold uppercase  leading-[0.95] text-zinc-900'
+                        className='text-4xl md:text-5xl lg:text-[4vw] font-bold uppercase leading-[0.95] text-zinc-900'
                     >
-                        At the heart of our craft is our own <span className="text-[#8C1D20]">LWG</span> Certified Tannery.
+                        {t('slider_heading_before')} <span className="text-[#8C1D20]">LWG</span> {t('slider_heading_after')}
                     </motion.h3>
                 </motion.div>
 
@@ -141,12 +141,11 @@ export default function ProductSlider({
                     className="max-w-md lg:pb-2"
                 >
                     <p className='font-sans text-zinc-500 text-base md:text-lg leading-relaxed mb-8'>
-                        By managing our own production, we ensure complete transparency and superior quality in every hide. Our dedicated global team sources a diverse palette of materials from European and Asian markets, ensuring strict REACH safety regulations are met.
+                        {t('slider_desc')}
                     </p>
-                    
-                    {/* Micro-interaction UI */}
+
                     <div className="flex items-center gap-3 text-xs font-semibold uppercase tracking-widest text-zinc-900">
-                        <span>Drag to explore</span>
+                        <span>{t('slider_drag')}</span>
                         <MoveRight className="w-4 h-4 animate-pulse" />
                     </div>
                 </motion.div>
