@@ -82,6 +82,9 @@ export const metadata: Metadata = {
     canonical: siteUrl,
   },
   category: "Leather Goods Manufacturing",
+  verification: {
+    google: "wGSHBV2SaUELzNYK1Lhrhw1BgBeJpgsY-gI44OMjZRY",
+  },
 };
 
 const organizationSchema = {
